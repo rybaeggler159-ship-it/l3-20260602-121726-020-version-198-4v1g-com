@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-热播电影片库-热门影片合集-高清电影在线观看</title>
+  <meta name="description" content="搜索热播电影片库中的影片、地区、年份、类型与题材标签。">
+  <meta name="keywords" content="热播电影片库,热门影片合集,高清电影在线观看,热播电影,热门影片,电影片库,电影合集,影片搜索,电影搜索">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script defer src="./assets/site.js"></script>
+  <script defer src="./assets/search-data.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./index.html" aria-label="热播电影片库">
+        <span class="brand-mark">播</span>
+        <span class="brand-text">热播电影片库</span>
+      </a>
+      <nav class="desktop-nav">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rankings.html">热播榜</a>
+          <a href="./category/featured-movies.html">精选电影</a>
+          <a href="./category/hot-series.html">热播剧集</a>
+          <a href="./category/action-thriller.html">动作惊悚</a>
+          <a href="./category/suspense-crime.html">悬疑犯罪</a>
+          <a href="./category/romance-family.html">爱情家庭</a>
+          <a href="./category/history-war.html">历史战争</a>
+      </nav>
+      <form class="header-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、题材、地区" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./rankings.html">热播榜</a>
+      <a href="./search.html">搜索</a>
+      <a href="./category/featured-movies.html">精选电影</a>
+      <a href="./category/hot-series.html">热播剧集</a>
+      <a href="./category/action-thriller.html">动作惊悚</a>
+      <a href="./category/suspense-crime.html">悬疑犯罪</a>
+      <a href="./category/romance-family.html">爱情家庭</a>
+      <a href="./category/history-war.html">历史战争</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="page-hero small-hero">
+      <span class="eyebrow">影片搜索</span>
+      <h1>搜索影片</h1>
+      <p>输入片名、年份、地区、类型或标签，快速进入对应详情页。</p>
+      <form class="large-search search-page-form" action="./search.html" method="get">
+        <input id="searchInput" type="search" name="q" placeholder="搜索影片、题材、地区、年份">
+        <button type="submit">搜索</button>
+      </form>
+    </section>
+    <section class="content-section">
+      <div id="searchResults" class="movie-grid search-results"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>热播电影片库</strong>
+        <p>整理热播电影片库内容，按题材和热度分类展示，方便查找近期关注度较高的电影。</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rankings.html">热播榜</a>
+        <a href="./category/featured-movies.html">精选电影</a>
+        <a href="./category/hot-series.html">热播剧集</a>
+        <a href="./category/action-thriller.html">动作惊悚</a>
+        <a href="./category/suspense-crime.html">悬疑犯罪</a>
+        <a href="./category/romance-family.html">爱情家庭</a>
+        <a href="./category/history-war.html">历史战争</a>
+        <a href="./category/sci-fi-fantasy.html">科幻奇幻</a>
+        <a href="./category/comedy-animation.html">喜剧动画</a>
+        <a href="./category/asia-hot.html">日韩热门</a>
+        <a href="./category/global-cinema.html">欧美专区</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 热播电影片库</p>
+  </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
